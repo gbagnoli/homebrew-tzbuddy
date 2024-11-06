@@ -1,9 +1,9 @@
 class Tzbuddy < Formula
   desc "Simple cli to visualize times in different timezones."
   homepage "https://github.com/gbagnoli/tzbuddy.rs"
-  url "https://github.com/gbagnoli/tzbuddy.rs/releases/download/v0.3.1/tzbuddy-macos-amd64.tar.gz"
-  sha256 "55937562a3149af792f559d29fcdf9ba5e47d704d5762ac8949ee2cf8711271d"
-  version "0.3.1"
+  url "https://github.com/gbagnoli/tzbuddy.rs/releases/download/v0.4.2/tzbuddy-macos-amd64.tar.gz"
+  sha256 "cdfc187a5708413ec52c7ff099c3e520f285cc7df91e84d23c96e3ff55865922"
+  version "0.4.2"
 
   def install
     bin.install "tzbuddy"
