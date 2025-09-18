@@ -7,8 +7,10 @@ class Tzbuddy < Formula
   head "https://github.com/gbagnoli/tzbuddy.rs.git", branch: "main"
 
   bottle do
-    rebuild 1
-    sha256 cellar: :any_skip_relocation, x86_64_linux: "b0a699c147ec35574cd079c5665f174711dd329bb9a5d9bf264dd3e2b1172aaf"
+    root_url "https://github.com/gbagnoli/homebrew-tzbuddy/releases/download/tzbuddy-0.5.1"
+    rebuild 2
+    sha256 cellar: :any_skip_relocation, arm64_tahoe:  "285580ac3f20442e43895c640797be7b1ac1296f25563dee1d3637a370f9b1e9"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "80267bef3c60afbde27bf056508db24303c427c52f8d6eef3801d59621fb4835"
   end
 
   depends_on "rust" => :build
