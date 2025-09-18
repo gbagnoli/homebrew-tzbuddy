@@ -19,6 +19,7 @@ class Tzbuddy < Formula
 
   test do
     assert_equal "UTC", shell_output("#{bin}/tzbuddy -L UTC").strip
-    assert_equal "UTC (UTC) Tue 13:07 19/08/2025 · | 13 |  14   15", shell_output("#{bin}/tzbuddy -z UTC -s 3 '2025-08-19 13:07'").strip
+    assert_equal "UTC (UTC) Tue 13:07 19/08/2025 · | 13 |  14   15", \
+                 shell_output("#{bin}/tzbuddy -z UTC -s 3 '2025-08-19 13:07'").strip
   end
 end
