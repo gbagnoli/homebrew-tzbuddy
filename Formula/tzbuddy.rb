@@ -6,13 +6,6 @@ class Tzbuddy < Formula
   license "MIT"
   head "https://github.com/gbagnoli/tzbuddy.rs.git", branch: "main"
 
-  bottle do
-    root_url "https://github.com/gbagnoli/homebrew-tzbuddy/releases/download/tzbuddy-0.5.1"
-    rebuild 2
-    sha256 cellar: :any_skip_relocation, arm64_tahoe:  "285580ac3f20442e43895c640797be7b1ac1296f25563dee1d3637a370f9b1e9"
-    sha256 cellar: :any_skip_relocation, x86_64_linux: "80267bef3c60afbde27bf056508db24303c427c52f8d6eef3801d59621fb4835"
-  end
-
   depends_on "rust" => :build
 
   def install
