@@ -1,8 +1,8 @@
 class Tzbuddy < Formula
   desc "Simple cli to visualize times in different timezones"
   homepage "https://github.com/gbagnoli/tzbuddy.rs"
-  url "https://github.com/gbagnoli/tzbuddy.rs/archive/refs/tags/v0.5.1.tar.gz"
-  sha256 "1ab847ccec170a0ad310de9d92210369467e8174a1f711030873b0d4bc1e9400"
+  url "https://github.com/gbagnoli/tzbuddy.rs/archive/refs/tags/v0.5.2.tar.gz"
+  sha256 "0b88ed31ea945084d73a9d3052476f04e8b306bce31d6984d5d44b512c195f82"
   license "MIT"
   head "https://github.com/gbagnoli/tzbuddy.rs.git", branch: "main"
 
