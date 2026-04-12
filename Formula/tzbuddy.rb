@@ -7,10 +7,10 @@ class Tzbuddy < Formula
   head "https://github.com/gbagnoli/tzbuddy.rs.git", branch: "main"
 
   bottle do
-    root_url "https://github.com/gbagnoli/homebrew-tzbuddy/releases/download/tzbuddy-0.5.2"
-    sha256 cellar: :any_skip_relocation, arm64_tahoe:   "31518a2c3499846ed84694387ba2b94c7bcbef8ed921ddec7abd60d3b42edccb"
-    sha256 cellar: :any_skip_relocation, arm64_sequoia: "ca18ee976db4a3f317097049448508e99de700c49c5b9f046241c39f8b886588"
-    sha256 cellar: :any_skip_relocation, x86_64_linux:  "671a3deb7bb3d2ce48be82e82e2bee80f3b7d11460b834dc938a6cb0f249e6f3"
+    root_url "https://github.com/gbagnoli/homebrew-tzbuddy/releases/download/tzbuddy-0.5.3"
+    sha256 cellar: :any_skip_relocation, arm64_tahoe:   "418e82e4412cbc675f961980b350314868344fdb1cd0f993569d8b59982c59e7"
+    sha256 cellar: :any_skip_relocation, arm64_sequoia: "08d1ec32178b38a90522627241f1d0dac0143f36adf89d3187f00144b0474a9b"
+    sha256 cellar: :any_skip_relocation, x86_64_linux:  "038b59e413a4e796686b91d6cd550b2262e36fe99bd54d1bf47d427f4785fb85"
   end
 
   depends_on "rust" => :build
